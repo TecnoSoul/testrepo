@@ -1,0 +1,28 @@
+<!DOCTYPE patchbay>
+<patchbay version="0.4.0" name="patchbay-conexiones-jack">
+ <output-sockets>
+  <socket exclusive="off" client="audacious" type="jack-audio" name="audacious 1">
+   <plug>out_0</plug>
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="vlc_[0-9]+" type="jack-audio" name="vlc_[0-9]+ 1">
+   <plug>out_1</plug>
+   <plug>out_2</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket exclusive="off" client="system" type="jack-audio" name="system 1-baffles">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+  </socket>
+  <socket exclusive="off" client="system" type="jack-audio" name="Input Socket 2-auriculares">
+   <plug>playback_3</plug>
+   <plug>playback_4</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable output="audacious 1" input="Input Socket 2-auriculares" type="jack-audio"/>
+ </cables>
+</patchbay>
+

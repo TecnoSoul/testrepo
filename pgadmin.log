@@ -1,0 +1,6 @@
+2013-05-29 11:02:20 ERROR  : Error connecting to the server: FATAL:  no hay una l?nea en pg_hba.conf para <<186.56.91.253>>, usuario <<airtime>>, base de datos <<postgres>>, SSL activo
+FATAL:  no hay una l?nea en pg_hba.conf para <<186.56.91.253>>, usuario <<airtime>>, base de datos <<postgres>>, SSL inactivo
+
+2013-05-29 11:02:50 ERROR  : Error connecting to the server: FATAL:  no hay una l?nea en pg_hba.conf para <<186.56.91.253>>, usuario <<airtime>>, base de datos <<airtime>>, SSL activo
+FATAL:  no hay una l?nea en pg_hba.conf para <<186.56.91.253>>, usuario <<airtime>>, base de datos <<airtime>>, SSL inactivo
+
